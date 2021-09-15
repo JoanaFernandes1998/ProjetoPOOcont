@@ -1,3 +1,8 @@
+using System;
+using System.Collections.Generic;
+using System.Globalization;
+using System.Threading;
+
 class Curso : IComparable<Curso> {
   // Propriedade do Curso
   public int Id { get; set; }
